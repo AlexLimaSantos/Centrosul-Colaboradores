@@ -8,7 +8,7 @@ export const metadata:Metadata = {
 
 export default function inventario() {
     return (
-        <><header className="text-white px-4 py-4 bg-blue-900 shadow-md ">
+        <><header className="text-white px-8 py-4 bg-blue-900 shadow-md ">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 <h1 className="text-3xl font-bold">CENTRO SUL - INVENTÁRIO</h1>
                 <nav className="mr-10">
