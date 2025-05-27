@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react';
 import CardInventario from '@/app/components/cards/card-inventario';
 
 export default function CardsInventario() {
