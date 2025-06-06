@@ -1,4 +1,4 @@
-export default function CardContentAtualizarEstoqueInventario() {
+export default function CardContentAtualizarEstoque() {
     return (
         <div className="card-content">
             <h2 className="text-xl font-bold mb-4 text-center">Atualizar Estoque 📦</h2>

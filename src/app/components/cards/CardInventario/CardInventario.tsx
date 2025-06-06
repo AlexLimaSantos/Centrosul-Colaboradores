@@ -1,10 +1,10 @@
 'user client'
 
-import CardContentBoi from "./card-content-boi";
-import CardContentAtualizarEstoqueInventario from "./card-content-atualizar-estoque-inventario";
-import CardContentPao from "./card-content-pao";
-import CardContentSuino from "./card-content-suino";
-import CardContentPlanilhaKaizen from "./card-content-planilha-kaizen";
+import CardContentBoi from "../CardContentBoi/CardContentBoi";
+import CardContentAtualizarEstoque from "../CardContentAtualizarEstoque/CardContentAtualizarEstoque";
+import CardContentPao from "../CardContentPao/CardContentPao";
+import CardContentSuino from "../CardContentSuino/CardContentSuino";
+import CardContentPlanilhaKaizen from "../CardContentPlanilhaKaizen/CardContentPlanilhaKaizen";
 
 import { useState } from "react";
 
@@ -58,7 +58,7 @@ export default function CardInventario(props: CardProps) {
                 </div>    
             ) : activeCard === "estoque" ? (
                 <div>
-                    <CardContentAtualizarEstoqueInventario />
+                    <CardContentAtualizarEstoque />
                     <button className="w-full py-2 rounded-md font-semibold mt-2 bg-gray-200 hover:bg-gray-300"
                         onClick={(e) => { e.stopPropagation(); handleReset(); }}>
                         FECHAR
