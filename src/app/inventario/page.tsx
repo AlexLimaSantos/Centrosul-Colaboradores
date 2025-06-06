@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import CardsInventario from "./cards"
+import CardsInventario from "./CardsInventario/CardsInventario"
 
 export const metadata:Metadata = {
     title: "Centro Sul - Inventário",
