@@ -36,12 +36,12 @@ export default function CardsInventario() {
                     description="Clique para atualizar o inventário"
                 />
                 {/*CARD PLANILHA KAIZEN*/}
-                <CardInventario
+                {/* <CardInventario
                     data="kaizen"
                     image="📊"
                     title="Planilha Kaizen"
                     description="Clique para subir a planilha"
-                />
+                /> */}
             </div>
         </main>
     );
