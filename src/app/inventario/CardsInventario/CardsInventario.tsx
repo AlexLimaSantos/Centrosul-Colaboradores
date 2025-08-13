@@ -1,6 +1,6 @@
 'use client'
 
-import CardInventario from '@/app/components/cards/card-inventario';
+import CardInventario from '@/app/components/cards/CardInventario/CardInventario';
 
 export default function CardsInventario() {
 
